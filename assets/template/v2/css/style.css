@@ -1,0 +1,84 @@
+
+.margintop-20 { margin-top:20px; }
+
+body { 
+  background: url(../img/grid.png) repeat;
+  border-top:10px solid #0083c1; border-bottom:10px solid #00aff0;
+}
+
+.boxpeta {
+  padding:15px; margin-top:20px;
+  background: rgba(141, 208, 239, 0.30); border:1px solid #e8f7ff;
+}
+
+.atas{
+	margin-left: -10px;
+}
+
+.bawah{
+	margin-left: -10px;
+}
+
+.bawah ol{
+	margin-top: -20px;	
+}
+.bawah li{
+	margin-left: -20px;	
+}
+
+.well {
+  background: rgba(141, 208, 239, 0.30); border:1px solid #e8f7ff;
+}
+
+
+.footer {
+  background: #2b5464; color:#fff;
+}
+
+.footer a { color:#fff; }
+
+.footer .credit {
+  padding:10px; margin-top: 30px; color:#b0c5d1; border-top:1px dashed #b0c5d1; font-size:11px;
+}
+
+/*---------------Tabel-------------------*/
+#tabs table.tabels { 
+    margin-top: 10px;
+    font-family: Verdana;  
+    padding: 5px; 
+    table-layout: auto; 
+    text-align: center; 
+    font-size: 10pt; 
+    width: 95%;
+    border-collapse: collapse;
+}   
+#tabs table.tabels td { 
+    border: solid 1px #000;
+    padding: 5px;
+ }
+#tabs table.tabels td.juduls { 
+    font-weight: bold;
+    text-align: center;
+}
+#tabs table.tabels td.senter { 
+    text-align: center;
+}
+#tabs ul{
+  border-bottom: solid 4px #000;
+}
+#tabs ul li{
+  display: inline;
+  border: solid 1px #000;
+  padding: 5px 10px 4px 10px;
+}
+#tabs ul li.ui-state-active{
+  border: none;    
+  padding: 5px 10px 5px 10px;
+}
+#tabs ul li a{
+  color: #000;
+  text-decoration: none;
+}
+#tabs ul li a:hover{  
+  text-decoration: none;  
+}
